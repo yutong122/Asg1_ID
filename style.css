@@ -18,19 +18,23 @@ header {
 
 .logo {
     height: auto;
-    width: 100%;
-    max-width: 250px;
+    width: 250px;
 }
 
 .crown {
     height: auto;
-    width: 25%;
-    max-width: 100px;
+    width: 70px;
+}
+.textbox {
+    display: flex;
+    flex-direction: column; /* stacks text vertically */
+    align-items: center;    /* centers text horizontally */
+    justify-content: center;
 }
 .logo-text {
     font-size: 32px;
-    font-weight: 100;
-    letter-spacing: 2px;
+    font-weight: 600;
+    letter-spacing: 3px;
     color: black;
     margin: 0;
     text-align: center;
