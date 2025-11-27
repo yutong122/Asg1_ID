@@ -1,0 +1,38 @@
+*{box-sizing: border-box;}
+
+body{ background-color: pink;}
+
+header {
+    width: 100%;
+    padding: 15px 0;
+}
+
+.logo-container {
+    display: flex;          /* places image + text side by side */
+    flex-direction: row; /* horizontal layout */
+    align-items: center;    /* centers item vertically */
+    justify-content: center;
+    width: 100%;          
+    gap: 15px
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+    max-width: 250px;
+}
+
+.crown {
+    height: auto;
+    width: 25%;
+    max-width: 100px;
+}
+.logo-text {
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: black;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;  /* change to your chosen font */
+}
