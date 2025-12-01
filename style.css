@@ -7,36 +7,246 @@ header {
     padding: 15px 0;
 }
 
+.container{
+    display: flex;
+    justify-content: center; /* centers nav items horizontally */
+    gap: 30px;               /* space between nav items */
+    font-family: Arial, sans-serif; /* change to your chosen font */
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+    background-color: white;
+    padding: 10px ;
+}
+
+.container a {
+    text-decoration: none; /* removes underline from links */
+    color: black;
+}
+
 .logo-container {
     display: flex;          /* places image + text side by side */
-    flex-direction: row; /* horizontal layout */
     align-items: center;    /* centers item vertically */
     justify-content: center;
     width: 100%;          
-    gap: 15px
+    gap: 160vw;
+    margin-top: 10px;
 }
 
 .logo {
     height: auto;
-    width: 250px;
+    position: absolute;
+    left: 20px;
+    max-width: 100%;
+    
 }
 
 .crown {
     height: auto;
-    width: 70px;
+    width: 160px;
+    position:absolute;
+    right: 20px;
+    top: 20px;
 }
-.textbox {
-    display: flex;
-    flex-direction: column; /* stacks text vertically */
-    align-items: center;    /* centers text horizontally */
-    justify-content: center;
-}
+
 .logo-text {
-    font-size: 32px;
+    font-size: 4vw;
+    white-space: nowrap; /* prevents text from wrapping to next line */
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: black;
     margin: 0;
     text-align: center;
     font-family: Arial, sans-serif;  /* change to your chosen font */
+    position: relative;
+    top: 30px;
+    left: 20vw;
+}
+
+.highlight {
+    background-color: pink; /* highlight color */
+    padding: 5px 60px;        /* padding around text */
+    border-radius: 5px;       /* rounded corners */
+}
+
+.image-container {
+    position: relative;
+    width: fit-content;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-image {
+    display:block;
+    margin: 20px auto; /* centers the image horizontally with margin */
+    width: 100%;   /* ensures image doesn't exceed container width */
+    height: auto;      /* maintains aspect ratio */
+}
+
+.corner_button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 30px;
+    font-size: 22px;
+    background-color: white;
+    color: darkorchid;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.bp-profile-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: stretch;
+   gap: 30px;
+   width: 100%;
+}
+.profile {
+    flex: 1;
+    text-align:start;
+    font-family: Arial, sans-serif; /* change to your chosen font */
+    font-size: 20px; 
+    margin-top: 10px;
+    color:black;
+}
+
+.intro-container {
+    flex: 1;
+    text-align: center;
+    background-color: darkred;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 10px;
+    max-height: 350px;
+    
+}
+
+.intro-title {
+    font-family: Arial, sans-serif; /* change to your chosen font */
+    font-size: 28px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+}
+
+.intro-content {
+    font-family: Arial, sans-serif; /* change to your chosen font */
+    font-size: 24px;
+    gap: 10px;
+    color: white;
+    max-height: 200px; /* sets a maximum height for the scrollable area */
+    overflow-y: auto;  /* adds vertical scrollbar if content exceeds max height */
+    text-align: left;
+    margin-top: -10px;
+}
+
+.words {
+    color: black;
+    text-align:center;
+    padding: 3px 0;
+    font-family: Arial, sans-serif; /* change to your chosen font */
+    font-size: 18px;
+    
+}
+
+.left-panel {
+    width: 50%;
+    float: left;
+    text-align:start;
+    font-family: Arial, sans-serif; /* change to your chosen font */
+    color: black;
+
+}
+
+.jump-logo {
+    width: 280px;
+    height: auto;
+    vertical-align:top;
+    position: relative;
+    left: 110px;
+    margin-top: 25px;
+}
+
+.jump-cover {
+    width: 220px;
+    height: auto;
+    margin-right: 70px;
+    margin-top: 160px;
+    position: relative;
+    left: -150px;
+}
+
+.date {
+    font-size: 30px;
+    text-align: start;
+    font-family: Arial, sans-serif; /* change to your chosen font */
+    color: black;
+    margin-top: 15px;
+    position:relative;
+    left: 170px;
+}
+
+
+@media (max-width: 768px) {
+    .logo-container {
+        display: flex;          /* places image + text side by side */
+        align-items: center;    /* centers item vertically */
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: row; /* stacks image + text vertically */
+        gap: 20px;              /* reduces space between image and text */
+    }
+
+    .logo {
+        width: 120%;             /* adjusts logo size for smaller screens */
+        position: static;      /* prevents overflow issues */
+    }
+
+    .crown {
+        width: 120px;            /* adjusts crown size for smaller screens */
+        position: static;      /* prevents overflow issues */
+    }
+
+    .logo-text {
+        font-size: 8vw;         /* adjusts text size for smaller screens */
+        position: static;      /* prevents overflow issues */
+        text-align: center;
+        white-space: nowrap;
+        margin-top: 30;
+        
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row; /* stacks nav items vertically */
+        flex-wrap: wrap;       /* wrap if screen too small */
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;              /* reduces space between nav items */
+        font-size: 10px;       /* adjusts font size for smaller screens */
+        padding: 10px;          /* reduces padding for smaller screens */
+        width: 100%;
+    }
+
+    .highlight {
+        padding: 5px 5px;      /* adjusts padding for smaller screens */
+        width: 100%;               /* makes highlight span full width */
+    }
+
+    .image-container,
+    .main-image {
+        width: 100%;
+    }
+
+    .corner_button {
+        padding: 8px 15px;
+        font-size: 14px;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 4px;
+    }
+
+    
 }
