@@ -188,6 +188,17 @@ header {
     left: 170px;
 }
 
+.jump {
+    bottom: 440px;
+    position:relative;
+    left: 500px;
+    height: 400px
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+}
 
 @media (max-width: 768px) {
     .logo-container {
