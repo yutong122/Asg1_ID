@@ -156,6 +156,7 @@ header {
     font-size: 18px;
     position:relative;
     padding: 1px;
+    justify-content: end;
     bottom: -10px;
     background-color: lightcoral;
     height: 40px;   
@@ -188,7 +189,7 @@ header {
 }
 
 .jump-cover {
-    display: stretch;
+    display: block;
     width: 270px;
     height: auto;
     margin-right: 100px;
@@ -198,22 +199,46 @@ header {
     left: 120px;
 }
 
+.jump-container {
+    position: relative;
+    width: 900px;        /* adjust size */
+    margin: 20px auto;   /* center on page */
+    border-radius: 12px;
+    overflow: hidden;    /* keeps play button inside the image */
+    cursor: pointer;
+    right: 150px;
+}
+
+.jump-video {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    height: 470px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+
+    text-shadow: 0 0 20px black;   /* glowing effect */
+    pointer-events: none;          /* makes click go through to <a> */
+}
+
+
 .date {
     font-size: 30px;
     text-align: start;
     font-family: Arial, sans-serif; /* change to your chosen font */
     color: black;
-    bottom: 50px;
+    bottom: 40px;
     position:relative;
     left: 180px;
-}
-
-.jump {
-    position:relative;
-    right: 100px;
-    height: 460px;
-    width: 1300px;
-    margin-top: 40px;
 }
 
 .about-title {
@@ -299,6 +324,90 @@ header {
     bottom: 60px;
     left: 980px;
 }
+
+.back_button {
+    position: fixed;
+    top: 60px;  
+    right: 20px;    
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;   /* or any color */
+    color: darkorchid;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.jisoo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    border-bottom: 1px solid black; /* thin line */
+}
+.jisoo-profile {
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    height: 310px;
+    right: 100px;
+}
+.jisoo-left {
+    font-family: Arial, sans-serif; /* change to your chosen font */
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left: 100px;
+}
+
+
+
+
+.jennie-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    border-bottom: 1px solid black; /* thin line */
+}
+.jennie-profile {
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    height: 310px;
+    right: 100px;
+}
+
+
+
+.video-wrapper {
+    position: relative;
+    width: 600px;       /* change size if needed */
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-thumbnail {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 80px;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+    
+    pointer-events: none; /* makes the button click-through */
+}
+
 
 @media (max-width: 768px) {
     .logo-container {
