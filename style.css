@@ -828,6 +828,49 @@ header {
     bottom: 50px;
 }
 
+.m3-next-button {
+    position: relative;
+    bottom: 225px;
+    left: 1350px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    /* or any color */
+    color: darkorchid;
+    border: none;
+    border-radius: 5px;
+}
+
+.m3-back-button {
+    position: relative;
+    top: 70px;
+    left: 1350px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    color: darkorchid;
+    border: none;
+    border-radius: 5px;
+}
+.pink-venom-container {
+    flex: 1;               
+    max-width: 1000px;      
+    position: relative;
+    right: 160px;
+    height: 370px;
+    
+}
+
+.pink-venom-video {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: 420px;       
+    bottom: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
 @media (max-width: 768px) {
     .logo-container {
         display: flex;
