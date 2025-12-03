@@ -626,7 +626,7 @@ display: grid;
     padding: 30px;
     margin-top: 10px;
     justify-items: center;
-    margin-bottom: -100px;
+    margin-bottom: -50px;
 }
 .album {
     text-align: center;
@@ -644,7 +644,7 @@ display: grid;
 }
 
 .button {
-    display: inline-block;
+    position: relative;
     margin-top: 40px;
     padding: 10px 20px;
     font-size: 18px;
@@ -653,7 +653,7 @@ display: grid;
     border-radius: 5px;
     text-decoration: none;
     position: relative;
-    bottom: 2140px;
+    bottom: 2050px;
     left: 1300px;
     border: none;
 }
