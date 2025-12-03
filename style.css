@@ -917,6 +917,49 @@ header {
     bottom: 30px;
 }
 
+.m5-next-button {
+    position: relative;
+    bottom: 130px;
+    left: 1350px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    /* or any color */
+    color: darkorchid;
+    border: none;
+    border-radius: 5px;
+}
+
+.m5-back-button {
+    position: relative;
+    top: 150px;
+    left: 1050px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    color: darkorchid;
+    border: none;
+    border-radius: 5px;
+}
+
+.lovesick-girls-container {
+    flex: 1;
+    max-width: 1000px;
+    position: relative;
+    right: 160px;
+    height: 370px;
+
+}
+
+.lovesick-girls-video {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: 420px;
+    bottom: 20px;
+    position: relative;
+    bottom: 30px;
+}
 @media (max-width: 768px) {
     .logo-container {
         display: flex;
