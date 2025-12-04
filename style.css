@@ -960,6 +960,11 @@ header {
     position: relative;
     bottom: 30px;
 }
+
+.events_image{
+    margin-top: 10px;
+}
+
 @media (max-width: 768px) {
     .logo-container {
         display: flex;
