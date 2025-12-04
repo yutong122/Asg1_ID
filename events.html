@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EVENTS</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -31,10 +32,31 @@
     <!-- Main Content -->
     <img class="events_image" src="events_img.jpeg" alt="concert image">
     <section class="tour-container">
-
+        <!-- new york part -->
         <div class="tour-row">
-            <div class="city">NEW YORK</div>
+            <div class="country">NEW YORK</div>
             <div class="dates">2025. 07. 26 SAT 8PM / 2025. 07. 23 SUN 8PM</div>
-            <div class="status soldout">SOLD OUT</div>
+            <button class="status" data-msg="Sorry, New York shows are sold out!">SOLD OUT</button>
         </div>
-        
+        <!-- singapore part -->
+        <div class="tour-row">
+            <div class="country">SINGAPORE</div>
+            <div class="dates">2025. 11. 28 FRI / 2025. 11. 29 SAT / 2025. 11. 30 SUN</div>
+            <button class="status" data-msg="Sorry, Singapore shows are sold out!">SOLD OUT</button>
+        </div>
+        <!-- hong kong part -->
+        <div class="tour-row">
+            <div class="country">HONG KONG</div>
+            <div class="dates">
+                2026. 01. 24 SAT /
+                2026. 01. 25 SUN /
+                2026. 01. 26 MON
+            </div>
+            <button class="status" data-msg="Hong Kong shows are still available!">UPCOMING</button>
+        </div>
+        <!-- KUALA LUMPUR part -->
+        <div class="tour-row">
+            <div class="country">KUALA LUMPUR</div>
+            <div class="dates">2026. 02. 21 SAT / 2026. 02. 22 SUN</div>
+            <button class="status" data-msg="Kuala Lumpur shows are still available!">UPCOMING</button>
+        </div>

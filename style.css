@@ -23,7 +23,6 @@ header {
     gap: 30px;
     /* space between nav items */
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 30px;
     font-weight: 500;
     margin-top: 50px;
@@ -131,7 +130,6 @@ header {
     flex: 1;
     text-align: start;
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 20px;
     margin-top: 10px;
     color: black;
@@ -151,7 +149,6 @@ header {
 
 .intro-title {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 28px;
     margin-top: 5px;
     color: white;
@@ -160,7 +157,6 @@ header {
 
 .intro-content {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 24px;
     gap: 10px;
     color: white;
@@ -176,7 +172,6 @@ header {
     color: black;
     text-align: center;
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 18px;
     position: relative;
     padding: 1px;
@@ -199,7 +194,6 @@ header {
     float: left;
     text-align: start;
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     color: black;
 
 }
@@ -266,7 +260,6 @@ header {
     font-size: 30px;
     text-align: start;
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     color: black;
     bottom: 40px;
     position: relative;
@@ -275,7 +268,6 @@ header {
 
 .about-title {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 28px;
     text-align: center;
     margin-top: 30px;
@@ -327,7 +319,6 @@ header {
 
 .jisoo {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 20px;
     color: black;
     position: relative;
@@ -337,7 +328,6 @@ header {
 
 .jennie {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 20px;
     color: black;
     position: relative;
@@ -347,7 +337,6 @@ header {
 
 .rose {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 20px;
     color: black;
     position: relative;
@@ -357,7 +346,6 @@ header {
 
 .lisa {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 20px;
     color: black;
     position: relative;
@@ -372,7 +360,6 @@ header {
     padding: 10px 20px;
     font-size: 18px;
     background-color: white;
-    /* or any color */
     color: darkorchid;
     border: none;
     border-radius: 5px;
@@ -389,7 +376,6 @@ header {
 
 .details-jisoo {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     color: darkred;
     text-align: center;
     font-size: 40px;
@@ -416,7 +402,6 @@ header {
 
 .jisoo-left {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 25px;
     color: black;
     position: relative;
@@ -425,7 +410,6 @@ header {
 
 .jisoo-right {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     font-size: 20px;
     color: black;
     position: relative;
@@ -436,7 +420,6 @@ header {
 
 .details-jennie {
     font-family: Arial, sans-serif;
-    /* change to your chosen font */
     color: darkred;
     text-align: center;
     font-size: 40px;
@@ -793,7 +776,6 @@ header {
     padding: 10px 20px;
     font-size: 18px;
     background-color: white;
-    /* or any color */
     color: darkorchid;
     border: none;
     border-radius: 5px;
@@ -836,7 +818,6 @@ header {
     padding: 10px 20px;
     font-size: 18px;
     background-color: white;
-    /* or any color */
     color: darkorchid;
     border: none;
     border-radius: 5px;
@@ -880,7 +861,6 @@ header {
     padding: 10px 20px;
     font-size: 18px;
     background-color: white;
-    /* or any color */
     color: darkorchid;
     border: none;
     border-radius: 5px;
@@ -924,7 +904,6 @@ header {
     padding: 10px 20px;
     font-size: 18px;
     background-color: white;
-    /* or any color */
     color: darkorchid;
     border: none;
     border-radius: 5px;
@@ -962,7 +941,7 @@ header {
 }
 
 .events_image{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 @media (max-width: 768px) {
