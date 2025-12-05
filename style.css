@@ -940,8 +940,49 @@ header {
     bottom: 30px;
 }
 
-.events_image{
+.events_image {
     margin-top: 30px;
+}
+
+.tour-container {
+    width: 90%;
+    max-width: none;
+    margin: 30px 0;
+    padding-left: 100px;
+}
+
+.tour-row {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+}
+.country{
+    font-size: 28px;
+}
+.dates{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 300px;
+    margin-top: 10px;
+    width: 520px;
+    display: flex;
+
+}
+/* --- BUTTONS --- */
+.status {
+    padding: 7px 14px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: default;
+    margin-left: auto;
+    width: 110px;
+    margin-right: -30px;
+    
+
 }
 
 @media (max-width: 768px) {
