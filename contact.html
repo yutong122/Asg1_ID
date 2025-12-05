@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" class="logo" alt="blackpink logo name" width="800">
+            <div>
+                <h1 class="logo-text">IN YOUR AREA</h1>
+            </div>
+            <img src="crown.jpg" class="crown" alt="crown icon">
+        </div>
+    </header>
+    <nav class="container">
+        <a href="index.html"><span class="highlight">HOME</span></a>
+        <a href="about.html"><span class="highlight">ABOUT</span></a>
+        <a href="discography.html"><span class="highlight">DISCOGRAPHY</span></a>
+        <a href="events.html"><span class="highlight">EVENTS</span></a>
+        <a href="contact.html"><span class="highlight">CONTACT US</span></a>
+    </nav>
+    <!-- Main Content -->
+    <div class="contact-container">
+        <h3 class="contact-title">CONTACT US</h3>
+        <div class="contact-columns"> <!--3 column layout-->
+            <!--left side-->
+            <div class="contact-info">
+                <h3>OPERATING HOURS</h3>
+                <ul class="operating-hours">
+                    <li>Monday - Saturdays (8.30am - 9pm)</li>
+                    <li>Sundays and Public Holidays (12pm - 9pm)</li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <p class="form-title">FULL NAME :</p>
+                <input id="name" class="input_name" type="text" />
+
+                <p class="form-title">EMAIL :</p>
+                <input id="email" class="input_email" type="email" />
+
+                <p class="form-title">MOBILE NO :</p>
+                <input id="mobile" class="input_number" type="text" />
+
+                <p class="form-title">MESSAGE :</p>
+                <textarea id="message" class="input_message"></textarea>
+                <button class="submit-btn" type="button" onclick="showAlert()">Submit</button>
+            </div>
+            <div class="group-image">
+                <img src="group_photo.jpeg" alt="group photo">
+            </div>
+        </div>
+        <!-- bottom -->
+        <footer>
+            <div class="words">
+                </p>BLACKPINK&nbsp; &copy;2025. All Rights Reserved.</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
