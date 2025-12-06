@@ -19,14 +19,15 @@
             </div>
             <img src="crown.jpg" class="crown" alt="crown icon">
         </div>
+        <div id="nav-placeholder"></div>
     </header>
-    <nav class="container">
-            <a href="index.html"><span class="highlight">HOME</span></a>
-            <a href="about.html"><span class="highlight">ABOUT</span></a>
-            <a href="discography.html"><span class="highlight">DISCOGRAPHY</span></a>
-            <a href="events.html"><span class="highlight">EVENTS</span></a>
-            <a href="contact.html"><span class="highlight">CONTACT US</span></a>
-    </nav>
+    <script>
+        fetch("nav.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("nav-placeholder").innerHTML = data;
+            });
+    </script>
     <!-- Main Content -->
     <img class="events_image" src="events_img.jpeg" alt="concert image">
     <section class="tour-container">
@@ -62,9 +63,10 @@
     <!-- bottom -->
     <footer>
         <div class="words">
-            </p>BLACKPINK&nbsp; &copy;2025. All Rights Reserved.</p>
+            <p>BLACKPINK&nbsp; &copy;2025. All Rights Reserved.</p>
         </div>
     </footer>
     <script src="script.js"></script>
-    </body>
-    </html>
+</body>
+
+</html>
