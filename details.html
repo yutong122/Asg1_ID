@@ -19,15 +19,14 @@
             </div>
             <img src="crown.jpg" class="crown" alt="crown icon">
         </div>
-        <div id="nav-placeholder"></div>
     </header>
-    <script>
-        fetch("nav.html")
-            .then(res => res.text())
-            .then(data => {
-                document.getElementById("nav-placeholder").innerHTML = data;
-            });
-    </script>
+    <nav class="container">
+        <a href="index.html"><span class="highlight">HOME</span></a>
+        <a href="about.html"><span class="highlight">ABOUT</span></a>
+        <a href="discography.html"><span class="highlight">DISCOGRAPHY</span></a>
+        <a href="events.html"><span class="highlight">EVENTS</span></a>
+        <a href="contact.html"><span class="highlight">CONTACT US</span></a>
+    </nav>
     <!-- Main Content -->
     <div>
         <button class="back_button" onclick="window.location.href='about.html'">BACK</button>
