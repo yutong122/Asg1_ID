@@ -998,7 +998,7 @@ header {
     top: -15px;
 }
 
-.contact-columns{
+.contact-columns {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
@@ -1007,6 +1007,7 @@ header {
     flex-wrap: wrap;
     margin-top: -15px;
 }
+
 .contact-info {
     flex: 1;
     text-align: start;
@@ -1019,29 +1020,37 @@ header {
     padding: 20px;
     border-radius: 10px;
 }
-.operating-hours{
+
+.operating-hours {
     font-size: 25px;
     margin-top: 20px;
 }
-.contact-form{
-    flex:1;
-    display:flex;
+
+.contact-form {
+    flex: 1;
+    display: flex;
     flex-direction: column;
     gap: 8px;
     padding: 20px;
     border-radius: 10px;
     margin-top: -30px;
 }
-.input_name,.input_email, .input_number,.input_message{
+
+.input_name,
+.input_email,
+.input_number,
+.input_message {
     width: 100%;
     background: powderblue;
     border: none;
-    padding:10px;
+    padding: 10px;
 }
+
 .input_message {
     height: 70px;
     resize: none;
 }
+
 .submit-btn {
     width: 40%;
     align-self: center;
@@ -1050,17 +1059,19 @@ header {
     border: none;
     cursor: pointer;
 }
+
 .group-image {
     flex: 1;
     min-width: 300px;
     padding: 20px;
     border-radius: 10px;
 }
+
 .group-image img {
-    width: 100%;    
-    min-width: 280px;        
-    aspect-ratio: 1 / 1;    
-    object-fit: cover;      
+    width: 100%;
+    min-width: 280px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
     border-radius: 8px
@@ -1068,80 +1079,148 @@ header {
 
 
 @media (max-width: 768px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: pink;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
     .logo-container {
         display: flex;
-        /* places image + text side by side */
         align-items: center;
-        /* centers item vertically */
         justify-content: space-between;
         width: 100%;
         flex-direction: row;
-        /* stacks image + text vertically */
         gap: 20px;
-        /* reduces space between image and text */
+
     }
 
     .logo {
-        width: 120%;
-        /* adjusts logo size for smaller screens */
+        width: 40%;
         position: static;
-        /* prevents overflow issues */
     }
 
     .crown {
-        width: 120px;
-        /* adjusts crown size for smaller screens */
-        position: static;
-        /* prevents overflow issues */
+        width: 75px;
+        left: 310px;
     }
 
     .logo-text {
-        font-size: 8vw;
-        /* adjusts text size for smaller screens */
+        font-size: 14px;
         position: static;
-        /* prevents overflow issues */
         text-align: center;
         white-space: nowrap;
-        margin-top: 30;
-
+        width: 10px;
+        margin-right: 400px;
+        margin-top: 10px;
     }
 
+    /*navigation*/
     .container {
         display: flex;
         flex-direction: row;
-        /* stacks nav items vertically */
-        flex-wrap: wrap;
-        /* wrap if screen too small */
-        justify-content: space-between;
         align-items: center;
-        gap: 5px;
-        /* reduces space between nav items */
+        gap: 10px;
+        justify-self: center;
+        overflow-x: auto;
         font-size: 10px;
-        /* adjusts font size for smaller screens */
-        padding: 10px;
-        /* reduces padding for smaller screens */
-        width: 100%;
+        margin-top: 10px;
+        padding: 8px;
+        box-sizing: border-box;
+        width: 400px;
+        height: 50px;
+        position: relative;
     }
 
     .highlight {
-        padding: 5px 5px;
-        /* adjusts padding for smaller screens */
-        width: 100%;
-        /* makes highlight span full width */
+        padding: 5px 8px;
     }
 
     .image-container,
     .main-image {
-        width: 100%;
+        width: 390px;
     }
 
     .corner_button {
-        padding: 8px 15px;
+        padding: 8px 5px;
         font-size: 14px;
         bottom: 10px;
-        right: 10px;
+        left: 250px;
         border-radius: 4px;
+        width: 120px;
+        font-size: 14px;
     }
 
+    /*profile and intro section*/
+    .bp-profile-container {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .profile,
+    .intro-container {
+        width: 400px;
+        font-size: 12px;
+        align-items: start;
+        margin-left: 60px;
+        height: 20px;
+    }
+
+    .intro-container {
+        position: relative;
+        top: -40px;
+        right: 30px;
+        width: 330px;
+        height: 10px;
+
+    }
+
+    .words {
+        width: 375px;
+        height: 40px;
+        position: relative;
+        left: 10px;
+    }
+
+    /* about page*/
+    section.content-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        justify-self: center;
+        overflow-x: auto;
+        font-size: 10px;
+        margin-top: 10px;
+        padding: 8px;
+        box-sizing: border-box;
+        width: 790px;
+        height: 530px;
+        position: static;
+        margin-left: 370px;
+    }
+
+    .left-panel {
+        position: relative;
+        right: 50px;
+        width: 30px;
+    }
+
+    .date {
+        width: 300px;
+    }
+
+    .jump-container {
+        width: 300px;
+        height: 200px;
+        top: 350px;
+        right: 200px;
+    }
+
+    /*about page*/
 
 }
