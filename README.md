@@ -17,9 +17,7 @@ Afterwards I began starting to code my layout on website and used css style and 
 I have the about page where user just need to click on any image then it will go to the details page, there are also buttons to move from one page to another.<br>
 <br>
 <b> Technologies Used</b><br>
-<ul>
-    <li>https://www.figma.com
-<ul>
+https://www.figma.com<br>
 I used Figma for my wireframe.<br>
 <br>
 <b> Testing</b><br>
@@ -31,6 +29,16 @@ I used Figma for my wireframe.<br>
 - This is a page to submit a form.<br>
 - We must fill up the form in order to proceed to the submit button, or else there will be an alert message to remind users.<br> 
 - After user fill up everything and press submit button, then there will be a pop up message to thank user for their response.<br>
+<br>
+<b> Credits</b><br><br>
+<b> Content</b><br>
+- The text for the information was from https://kprofiles.com/black-pink-members-profile/<br> and https://kstarplanet.com/blackpink-members-profile<br><br>
+<b> Media</b><br>
+-The videos were from youTube<br>
+- The images were taken from google <br><br>
+<b> Acknowledgements</b><br>
+-The discography idea was taken from the official website https://www.ygfamily.com/en/artists/blackpink/main<br>
+
 
 
 
