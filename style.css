@@ -1222,5 +1222,25 @@ header {
     }
 
     /*about page*/
+    .jisoo-photo {
+        position: static;
+        margin-left: 65px;
+    }
+
+    .jennie-photo {
+        position: static;
+        margin-left: 48px;
+    }
+
+    .rose-photo {
+        position: static;
+        margin-left: 65px;
+    }
+
+    .lisa-photo {
+        position: static;
+        margin-left: 50px;
+    }
+
 
 }
