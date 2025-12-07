@@ -1041,7 +1041,7 @@ header {
 .input_number,
 .input_message {
     width: 100%;
-    background: powderblue;
+    background: whitesmoke;
     border: none;
     padding: 10px;
 }
@@ -1054,7 +1054,7 @@ header {
 .submit-btn {
     width: 40%;
     align-self: center;
-    background: powderblue;
+    background: lightcoral;
     padding: 8px;
     border: none;
     cursor: pointer;
@@ -1142,7 +1142,8 @@ header {
 
     .image-container,
     .main-image {
-        width: 390px;
+        width: 400px;
+        left: 10px;
     }
 
     .corner_button {
@@ -1183,7 +1184,8 @@ header {
         width: 375px;
         height: 40px;
         position: relative;
-        left: 10px;
+        font-size: 14px;
+
     }
 
     /* about page*/
@@ -1216,9 +1218,13 @@ header {
 
     .jump-container {
         width: 300px;
-        height: 200px;
-        top: 350px;
+        height: 300px;
+        top: 400px;
         right: 200px;
+    }
+
+    .jump-video {
+        height: 250px;
     }
 
     /*about page*/
@@ -1230,17 +1236,411 @@ header {
     .jennie-photo {
         position: static;
         margin-left: 48px;
+        margin-top: 30px;
     }
 
     .rose-photo {
         position: static;
         margin-left: 65px;
+        margin-top: 40px;
     }
 
     .lisa-photo {
         position: static;
         margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .name {
+        position: relative;
+        right: 50px;
+    }
+
+    .jisoo {
+        bottom: 1350px;
+    }
+
+    .jennie {
+        left: 100px;
+        bottom: 900px;
+    }
+
+    .rose {
+        left: 20px;
+        bottom: 470px;
+    }
+
+    .lisa {
+        left: -50px;
+        bottom: 20px;
+    }
+
+    .jisoo-section {
+        display: flex;
+    }
+
+    .jisoo-left {
+        margin-left: -130px;
+        font-size: 14px;
+        top: -120px;
+        position: relative;
+        width: 100px;
+
+    }
+
+    .jisoo-profile {
+        width: 150px;
+        height: 120px;
+        left: 280px;
+        top: -120px;
+    }
+
+    .details-jisoo {
+        position: relative;
+        left: 70px;
+    }
+
+    .jisoo-right {
+        margin-left: 70px;
+        font-size: 14px;
+        top: -30px;
+        width: 300px;
+        height: 50px;
+    }
+
+    .jennie-section {
+        display: flex;
+    }
+
+    .jennie-left {
+        right: 240px;
+        font-size: 14px;
+        top: 40px;
+        position: relative;
+        width: 350px;
+
+    }
+
+    .jennie-profile {
+        width: 150px;
+        height: 120px;
+        left: 120px;
+        top: -120px;
+    }
+
+    .details-jennie {
+        position: relative;
+        right: 160px;
+        top: 20px;
+    }
+
+    .jennie-right {
+        position: relative;
+    }
+
+    .rose-section {
+        display: flex;
+        height: 600px;
+    }
+
+    .rose-left {
+        left: 50px;
+        font-size: 14px;
+        top: -160px;
+        width: 300px;
+
+    }
+
+    .rose-profile {
+        width: 150px;
+        height: 120px;
+        left: 170px;
+        top: -150px;
+    }
+
+    .details-rose {
+        position: relative;
+        left: 130px;
+        top: 50px;
+    }
+
+    .rose-right {
+        font-size: 14px;
+        top: -90px;
+        width: 370px;
+        height: 50px;
+        right: 180px;
+    }
+
+    .lisa-section {
+        display: flex;
+    }
+
+    .lisa-left {
+        right: 150px;
+        font-size: 14px;
+        top: 60px;
+        width: 300px;
+
+    }
+
+    .lisa-profile {
+        width: 150px;
+        height: 120px;
+        left: 170px;
+        top: -100px;
+    }
+
+    .details-lisa {
+        position: relative;
+        right: 240px;
+        top: 20px;
+    }
+
+    .lisa-right {
+        font-size: 14px;
+        top: 300px;
+        width: 370px;
+        right: 180px;
+    }
+
+    .back_button {
+        position: relative;
+        top: 5px;
+        left: 300px;
+        padding: 5px 10px;
+        font-size: 14px;
+        background-color: white;
+        color: darkorchid;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .button {
+        position: relative;
+        padding: 5px 10px;
+        font-size: 14px;
+        background-color: white;
+        color: darkorchid;
+        border-radius: 5px;
+        text-decoration: none;
+        position: relative;
+        left: 240px;
+        bottom: 5620px;
+        border: none;
+    }
+
+    .discography-grid {
+        margin-left: -20px;
+    }
+
+    .m1-next-button,
+    .m2-next-button,
+    .m3-next-button,
+    .m4-next-button {
+        position: relative;
+        bottom: 30px;
+        left: 400px;
+        padding: 5px 10px;
+        font-size: 14px;
+        background-color: white;
+        color: darkorchid;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .song-title-box {
+        left: 90px;
+    }
+
+    .song-info {
+        position: relative;
+        right: 140px;
+    }
+
+    .kill-this-love-container,
+    .shut-down-container,
+    .lovesick-girls-container,
+    .pink-venom-container,
+    .how-you-like-that-container {
+        right: 40px;
+        height: 300px;
+    }
+
+    .kill-this-love-video,
+    .how-you-like-that-video,
+    .pink-venom-video,
+    .shut-down-video,
+    .lovesick-girls-video {
+        width: 380px;
+        height: 300px;
+        top: -5px;
+    }
+
+    .play-button {
+        top: 150px;
+    }
+
+    .m1-back-button,
+    .m3-back-button {
+        position: relative;
+        top: 470px;
+        left: 100px;
+        padding: 5px 10px;
+        font-size: 14px;
+        background-color: white;
+        color: darkorchid;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .m2-back-button,
+    .m4-back-button {
+        position: relative;
+        top: 440px;
+        left: 100px;
+        padding: 5px 10px;
+        font-size: 14px;
+        background-color: white;
+        color: darkorchid;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    .m5-back-button {
+        position: relative;
+        top: 500px;
+        left: 100px;
+        padding: 5px 10px;
+        font-size: 14px;
+        background-color: white;
+        color: darkorchid;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .events_image {
+        margin-top: 30px;
+        width: 375px;
+        height: 200px;
+    }
+
+    .tour-container {
+        width: 90%;
+        max-width: none;
+        margin: 30px 0;
+        padding-left: 100px;
+    }
+
+    .tour-row {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        padding: 5px 0;
+        border-bottom: 1px solid #ccc;
+        font-size: 15px;
+        position: relative;
+        right: 70px;
+        height: 70px;
+    }
+
+    .country {
+        font-size: 14px;
+        right: 100px;
+        margin-top: 10px;
+    }
+
+    .dates {
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 700px;
+        display: flex;
+    }
+
+    /* --- BUTTONS --- */
+    .status {
+        padding: 0px 12px;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 10px;
+        cursor: default;
+        margin-left: auto;
+        width: 180px;
+        margin-right: -100px;
+    }
+
+    .contact-info {
+        flex: 1;
+        text-align: start;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        color: black;
+        min-width: 300px;
+        padding: 10px;
+        border-radius: 10px;
+        position: relative;
+        right:10px;
+        bottom:100px;
+    }
+
+    .operating-hours {
+        font-size: 20px;
+    }
+
+    .contact-form {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 10px;
+        border-radius: 10px;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .input_name,
+    .input_email,
+    .input_number,
+    .input_message {
+        width: 100%;
+        background: whitesmoke;
+        border: none;
+        padding: 10px;
     }
 
 
+    .submit-btn {
+        width: 40%;
+        align-self: center;
+        background: lightcoral;
+        padding: 8px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .group-image {
+        flex: 1;
+        min-width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+        height: 270px;
+    }
+
+    .group-image img {
+        width: 130%;
+        min-width: 280px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        border-radius: 8px;
+        position: relative;
+        bottom: 70px;
+        right: 40px;
+    }
+    
 }
