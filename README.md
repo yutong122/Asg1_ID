@@ -19,6 +19,19 @@ I have the about page where user just need to click on any image then it will go
 <b> Technologies Used</b><br>
 <ul>
     <li>https://www.figma.com
-        <li>I used Figma for my wireframe
 <ul>
+I used Figma for my wireframe.<br>
+<br>
+<b> Testing</b><br>
+1. new release and music 1-5 pages<br>
+- I faced some problems getting the video to play in my weebsite, hence when click on the video like image, you will be directed to the youtube page then can see the video from there.<br>
+2. Events page<br>
+- When click on the upcoming or sold out button for the events, different button will pop up different message. <br>
+3. Contact page<br>
+- This is a page to submit a form.<br>
+- We must fill up the form in order to proceed to the submit button, or else there will be an alert message to remind users.<br> 
+- After user fill up everything and press submit button, then there will be a pop up message to thank user for their response.<br>
+
+
+
 
